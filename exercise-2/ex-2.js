@@ -6,6 +6,15 @@ Prints out the new updated array.
 Example: Given an array [1, 2, 4, 5]. The output should be [2, 4, 8, 10]
 */
 
+
+// tengo un agregador para guardar mis nuevos valores 
+// por cada numero en mi arreglo 
+// voy a multiplicar ese numero y lo pongo en mi agregador y lo multiplico x 2
+// imprimo el agregador 
+
+
+
+
 let arrayNum = [1,2,4,5];
 
 function printOutNumbers(resultArray){
