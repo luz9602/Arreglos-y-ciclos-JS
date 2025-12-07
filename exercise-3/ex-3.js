@@ -21,8 +21,24 @@ function add(arrayNumbers){
 
 add(array)
 
+
 // tengo un agregador para la suma 
 // por cada numero en mi arreglo 
 // voy a sumar ese numero a mi agregador 
 // voy a multiplicar ese numero a mi agregador
 // imprimo el agregador 
+
+
+
+// ----------
+
+const array2 = [1, 2, 3, 4];
+
+// 0 + 1 + 2 + 3 + 4
+const initialValue = 0;
+const sumWithInitial = array2.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  initialValue,
+);
+
+console.log(sumWithInitial);
