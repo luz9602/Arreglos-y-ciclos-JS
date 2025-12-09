@@ -28,6 +28,16 @@ function printOutString() {
 
 }
 printOutString();
+ 
+
+// tengo un agregador para mi enunciado 
+// por cada string en mi arreglo 
+// voy a concatenar ese string a mi agregador mas 1 espacio 
+// imprimo el agregador 
+
+
+
+
 
 // syntax de un for loop
 // for (initialization; condition; increment) 
